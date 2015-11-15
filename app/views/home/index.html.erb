@@ -1,0 +1,21 @@
+<h1>Poll 1</h1>
+
+
+<div class = "form">
+
+    <form action="/" method="POST">
+      <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" />
+      <div>
+        <h4>
+          <label for="name-input">Is Veggie Grill the best place on earth?</label>
+        </h4>
+        <h3>Yes</h3><input type= "checkbox" id= "yes" name= "yes"/>
+        <h3>No</h3><input type= "checkbox" id = "no" name= "no"/>
+
+        <input type="text" id = "name-input" name="section_name" />
+      </div>
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+  </div>
